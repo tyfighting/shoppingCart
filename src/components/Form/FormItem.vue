@@ -6,6 +6,7 @@
   </div>
 </template>
 <script>
+// 这个插件不好使
 import Schema from "async-validate";
 export default {
   props: ["label", "prop"],
@@ -17,7 +18,7 @@ export default {
     };
   },
   mounted() {
-    this.$on("validat", this.validator);
+    this.$on("validate", this.validator);
   },
   methods: {
     validator() {

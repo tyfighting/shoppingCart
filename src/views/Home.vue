@@ -30,7 +30,6 @@
           <td><button @click="addToCart(index)">添加到购物车</button></td>
         </tr>
       </table>
-
       <hr />
     </div>
     <cart :courseItem="courseItem" @remove="remove"></cart>
